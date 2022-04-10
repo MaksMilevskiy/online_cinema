@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Online Cinema</title>
 </head>
 <body>
-
     <div class="grid-init grid">
         <header class="header">
             <div class="header__wrap">
@@ -39,12 +41,195 @@
             </div>
         </header>
         <aside class="aside box-init">
-            aside
+            <div class="aside__title">
+                <div class="aside__header">New trailers</div>
+                <div class="aside__sort">
+                    <div class="aside__sort-text">Sort By</div>
+                    <div class="aside__sort-select">
+                        <span>Today</span>
+                        <div class="aside__sort-img">
+                            <img src="img/arrow_top.svg" alt="top">
+                            <img src="img/arrow_bottom.svg" alt="bot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside__item">
+                <div class="aside__views">Views 4.5k</div>
+                <div class="aside__footer">
+                    <div class="aside__item-name">Batman 2022</div>
+                    <div class="aside__item-date">Dec 2022</div>
+                </div>
+                <div class="button-play__wrap">
+                    <div class="button-play" type="button"></div>
+                </div>
+            </div>
+            <div class="aside__item">
+                <div class="aside__views">Views 4.5k</div>
+                <div class="aside__footer">
+                    <div class="aside__item-name">Batman 2022</div>
+                    <div class="aside__item-date">Dec 2022</div>
+                </div>
+                <div class="button-play__wrap">
+                    <div class="button-play" type="button"></div>
+                </div>
+            </div>
+            <div class="aside__bottom">
+                <div class="aside__favourite">
+                    <div class="aside__favourite-text">Favourite genres</div>
+                    <div class="aside__genre-items">
+                        <div class="aside__genre purple">Action</div>
+                        <div class="aside__genre orange">Western</div>
+                        <div class="aside__genre purple">Adventures</div>
+                        <div class="aside__genre orange">Drama</div>
+                        <div class="aside__genre green">Comedy</div>
+                    </div>
+                </div>
+                <div class="aside__footer">
+                    <div class="aside__add">
+                        <div class="aside__add-round">+</div>
+                        <span>Add your favourite genres</span>
+                    </div>
+                    <div class="aside__genre-items">
+                        <div class="aside__genre gray">Drama</div>
+                        <div class="aside__genre gray">Comedy</div>
+                        <div class="aside__genre gray">Comedy</div>
+                    </div>
+                </div>
+            </div>
         </aside>
         <main class="main">
-            main
+            <section class="main-display">
+                <div class="main-display__trailer">
+                    <div class="main-display__views">
+                        Views 77k
+                    </div>
+                    <div class="main-display__name">
+                        <h1 class="main-display__header">Spider-Man: No Way Home</h1>
+                        <div class="main-display__date">Feb 2021</div>
+                    </div>
+                    <div class="button-play__wrap">
+                        <button class="button-play" type="button"></button>
+                    </div>
+                </div>
+                <div class="main-display__trending">
+                    <div class="title">
+                        <div class="title__left">
+                            <h2 class="title__main">Continue Watching</h2>
+                            <div class="title__count">4 Movies</div>
+                        </div>
+                        <div class="title__right">
+                            <span>All Movies</span>
+                            <img src="img/arrow_right.svg" alt="arrow_right">
+                        </div>
+                    </div>
+                    <div class="trending">
+                       <div class="trending__item">
+                            <div class="trending__fire">
+                                <span>#1 Trending 🔥</span>
+                                <!-- <img src="" alt=""> -->
+                            </div>
+                            <div class="trending__footer">
+                                <div class="trending__footer-left">
+                                    <div class="button-play__wrap small">
+                                        <div class="button-play small__btn" type="button"></div>
+                                    </div>
+                                    <div class="trending__title">
+                                        <h3 class="trending__header">Spider-Man: No Way Home</h3>
+                                        <div class="trending__date">Feb 2022</div>
+                                    </div>
+                                </div>
+                                <div class="trending__time">02:30:00</div>
+                            </div>
+                        </div>
+                        <div class="trending__item">
+                            <div class="trending__footer">
+                                <div class="trending__footer-left">
+                                    <div class="button-play__wrap small">
+                                        <div class="button-play small__btn" type="button"></div>
+                                    </div>
+                                    <div class="trending__title">
+                                        <h3 class="trending__header">Spider-Man: No Way Home</h3>
+                                        <div class="trending__date">Feb 2022</div>
+                                    </div>
+                                </div>
+                                <div class="trending__time">02:30:00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-display__trending">
+                    <div class="title">
+                        <div class="title__left">
+                            <h2 class="title__main">Popular Movies 2022</h2>
+                        </div>
+                        <div class="title__right">
+                            <span>All Movies</span>
+                            <img src="img/arrow_right.svg" alt="arrow_right">
+                        </div>
+                    </div>
+                    <div class="popular">
+                        <div class="popular__item">
+                            <div class="popular__footer">
+                                <div class="popular__footer-left">
+                                    <div class="button-play__wrap small-plus">
+                                        <div class="button-play minimal" type="button"></div>
+                                    </div>
+                                    <div class="popular__title">
+                                        <div class="popular__header">Spider-Man: No Way Home</div>
+                                        <div class="popular__date">Feb 2022</div>
+                                    </div>
+                                </div>
+                                <div class="popular__rating">
+                                    <div class="popular__img">
+                                        <img src="img/star.svg" alt="star">
+                                    </div>
+                                    <span>4,7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular__item">
+                            <div class="popular__footer">
+                                <div class="popular__footer-left">
+                                    <div class="button-play__wrap small-plus">
+                                        <div class="button-play minimal" type="button"></div>
+                                    </div>
+                                    <div class="popular__title">
+                                        <div class="popular__header">Spider-Man: No Way Home</div>
+                                        <div class="popular__date">Feb 2022</div>
+                                    </div>
+                                </div>
+                                <div class="popular__rating">
+                                    <div class="popular__img">
+                                        <img src="img/star.svg" alt="star">
+                                    </div>
+                                    <span>4,7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular__item">
+                            <div class="popular__footer">
+                                <div class="popular__footer-left">
+                                    <div class="button-play__wrap small-plus">
+                                        <div class="button-play minimal" type="button"></div>
+                                    </div>
+                                    <div class="popular__title">
+                                        <div class="popular__header">Spider-Man: No Way Home</div>
+                                        <div class="popular__date">Feb 2022</div>
+                                    </div>
+                                </div>
+                                <div class="popular__rating">
+                                    <div class="popular__img">
+                                        <img src="img/star.svg" alt="star">
+                                    </div>
+                                    <span>4,7</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>    
-    </div>
-    
+    </div>   
 </body>
 </html>
