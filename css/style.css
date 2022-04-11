@@ -721,6 +721,16 @@ a:hover {
     .header__nav {
         display: none;
     }
+    .aside__genre-items, .aside__favourite-text, .aside__add {
+        display: flex;
+        justify-content: center;
+    }
+    .aside__genre-items {
+        padding: 0;
+    }
+    .aside__footer-bottom:before {
+        display: none;
+    }
 }
 
 @media (max-width: 44em) {
