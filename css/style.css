@@ -731,6 +731,10 @@ a:hover {
     .aside__footer-bottom:before {
         display: none;
     }
+    .modal__inner {
+        height: 20%;
+        width: 80%;
+    }
 }
 
 @media (max-width: 44em) {
