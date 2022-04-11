@@ -697,6 +697,30 @@ a:hover {
     html {
         font-size: 10px;
     }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aside {
+        margin-left: 5rem;
+        margin-right: 3rem;
+        padding: 0;
+    }
+    .header__wrap {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .header__nav a {
+        display: flex;
+    }
+    .main-display {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .header__nav {
+        display: none;
+    }
 }
 
 @media (max-width: 44em) {
