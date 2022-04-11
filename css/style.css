@@ -735,6 +735,9 @@ a:hover {
         height: 30%;
         width: 90%;
     }
+    .aside:after {
+        display: none;
+    }
 }
 
 @media (max-width: 44em) {
