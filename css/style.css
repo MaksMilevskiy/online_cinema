@@ -738,6 +738,12 @@ a:hover {
     .aside:after {
         display: none;
     }
+    .aside__add-round {
+        padding-left: 0.1rem;
+    }
+    .main-display__header {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 44em) {
